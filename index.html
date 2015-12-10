@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="cv">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+  <title>CV Ségolène Minjard</title>
+  <link href="custom.css" rel="stylesheet">
+  <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body ng-controller="MainController as main">
+  <div  class="jumbotron  text-center">
+ <nav class="navbar navbar-fixed-top" >
+  <div class="container">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li ng-class="main.menuClass('jobs')"><a href="#jobs" data-toggle="tab">Expérience professionnelle</a></li>
+        <li ng-class="main.menuClass('assos')"><a href="#assos" data-toggle="tab">Expérience associative</a></li>
+        <li ng-class="main.menuClass('projects')"><a href="#projects" data-toggle="tab">Projets réalisés</a></li>
+        <li ng-class="main.menuClass('formations')"><a href="#formations" data-toggle="tab">Formation</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <h1>Ségolène Minjard</h1>
+        <p>Etudiante ingénieure en informatique, en dernière année à l'INSA de Lyon</p>
+      </div>
+      
+
+      
+    <div class="panel-body container">
+
+
+      <div ng-view >  </div>
+    </div>  
+
+    <footer class="panel-footer">
+     <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+        Contact : 
+        <ul>
+          <li><a href="mailto:segolene.minjard@gmail.com">Email</a></li>
+          <li><a href="https://fr.linkedin.com/in/segoleneminjard">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-right">Copyright &copy; 2015 Ségolène Minjard</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- Angular -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
+<script src="app.js"></script>
+<script src="services/skillsFiltersService.js"></script>
+<script src="controllers/MainController.js"></script>
+<script src="controllers/JobListController.js"></script>
+<script src="controllers/ProjectListController.js"></script>
+<script src="controllers/AssoListController.js"></script>
+<script src="controllers/FormationListController.js"></script>
+<script src="controllers/SkillsController.js"></script>
+<script src="directives/job-directive.js"></script>
+<script src="directives/project-directive.js"></script>
+<script src="directives/association-directive.js"></script>
+<script src="directives/formation-directive.js"></script>
+<script src="directives/skill-directive.js"></script>
+
+</html>
+

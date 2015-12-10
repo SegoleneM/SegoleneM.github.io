@@ -1,0 +1,42 @@
+{
+"jobList": [
+{
+    "title": "Stage en laboratoire de recherche en intelligence artificielle",
+    "organization": "Auckland University of Technology",
+    "city": "Auckland, Nouvelle Zélande",
+    "startDate": "05/2015",
+    "endDate": "08/2015",
+    "description": ["Projet de robot construisant une carte cognitive basique à partir de données visuelles limitées",
+    " Développement d’algorithmes en C pour interpréter les surfaces perçues"],
+    "lang": "en",
+    "langSkills": ["C++"],
+    "technoSkills":["Linux", "Git"],
+    "methodSkills":["algorithmie"]
+  },
+  {
+    "title": "Stage de développement Windows Phone et .NET",
+    "organization": "Exakis",
+    "city": "Lyon",
+    "startDate": "06/2014",
+    "endDate": "08/2014",
+    "description": ["Développement seule d’une application Windows Phone communicant avec le serveur Exchange pour la gestion de réservations de véhicules (études des besoins, développement back end et front end, tests)",
+    "Développement et corrections de bugs sur des sites web en environnement .NET"],
+    "lang": "fr",
+    "langSkills": ["C#", "XAML", "HTML", "CSS", "Javascript"],
+    "technoSkills":["Windows Phone"],
+    "methodSkills":["MVVM", "MVC"]
+  },
+  {
+    "title": "Stage en management et finance",
+  "organization": "Valeo Japan",
+  "city": "Tokyo, Japon",
+  "startDate": "07/2012",
+  "endDate":"07/2012",
+  "description": ["Initiation au management et à la finance", "Excel", "Découverte de l'entreprise"],
+  "lang": "fr",
+  "langSkills": [],
+  "technoSkills":[],
+  "methodSkills":["Gestion de projet"]
+}
+    ]
+}

@@ -1,0 +1,35 @@
+{
+	"formationList":[
+	{
+		"title": "Formation d’ingénieure en informatique",
+		"organization": "l'INSA de Lyon",
+		"city": "Villeurbanne",
+		"startDate": "09/2013",
+		"endDate": "09/2016",
+		"description": "Développement logiciel,  Systèmes d’information, Architecture matérielle, Réseau, Mathématiques, Connaissance de l’entreprise, Gestion de projet"
+		},
+		{
+			"title": "Semestre d’échange",
+			"organization": "la Universitat Politécnica",
+			"city":"Valencia, Espagne",
+			"startDate": "09/2015",
+			"endDate": "01/2016",
+			"description": "Information multimedia en environnement multidispositif, analyse web et cybermétrie, web sémantique et Open Data, sécurité dans les systèmes informatiques, CMS (Drupal 8), sécurité informatique et authentification"
+			},
+			{
+				"title": "Formation au handicap en milieu professionnel",
+				"organization": "le cabinet Thompouss",
+				"city": "Villeurbanne",
+				"startDate": "11/2014",
+				"endDate": "02/2015",
+				"description":"L'association de sensibilisation au handicap Handizgoud propose de manière facultative à ses membres 9 séances de 2h de formation et coaching menées par une intervenante du cabinet Thompouss afin de leur donner les connaissances de bases de l'intégration des travailleurs handicapés en entreprise ainsi que pour les aider à organiser la Quinzaine HandiCap'INSA"
+				},
+				{
+					"title":"Premier cycle ASINSA",
+					"organization": "l'INSA de Lyon",
+					"city": "Villeurbanne",
+					"startDate": "09/2011",
+					"endDate": "06/2013",
+					"description":"Formation générale pour l'ingénieur(e) dans la section ASINSA. Cette section d'environ 75 étudiants est composée à moitié d'étudiants asiatiques (principalement Chinois et Vietnamiens) et les enseignements essaient de s'orienter vers la culture asiatique"
+					}]
+				}

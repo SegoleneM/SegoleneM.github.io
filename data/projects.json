@@ -1,0 +1,64 @@
+{
+	"projectList":[
+	{
+    
+    "title": "Développeuse front-end pour application Android",
+    "date": "2015",
+    "participants": "7",
+    "description": "Application Android pour trouver des évènements près de chez soi, développée par un groupe de 7 étudiants",
+    "langSkills": ["Java"],
+    "technoSkills":["Android", "Git"],
+    "methodSkills":["MVC", "Java Design Patterns"],
+    "lien":""
+  },
+  {
+  	"title":"Développeuse front-end pour un jeu en ligne développé avec MEAN.js",
+  	"date":"2015",
+  	"participants":"7",
+  	"description":"Jeu en ligne multiplayer de conquête de territoires basé dans la ville de Lyon et exploitant les données mises à disposition par celle-ci",
+  	"langSkills":["HTML","AngularJS", "Javascript"],
+  	"technoSkills":["Git"],
+  	"methodSkills":["MVC"],
+  	"lien":"https://github.com/LeonardA-L/LaGuerreDesGones"
+  	},
+  {
+  	"title":"Programme Java de type voyageur de commerce",
+  	"date":"2014",
+  	"participants":"6",
+  	"description":"Application Java avec interface swing pour gérer des tournées de livraison.",
+  	"langSkills":["Java"],
+  	"technoSkills":["Git"],
+  	"methodSkills":["UML","MVC", "Java Design Patterns", "algorithmie"],
+  	"lien":"https://github.com/Salma-El-Alaoui/Traveling-Salesman"
+  	},
+  	{
+  		"title":"Programmation d'un automate d'interprétation de langage",
+  		"date":"2015",
+  		"participants":"6",
+  		"description":"Programmation en C des diverses briques permettant l'analyse syntaxique d'un langage déterminé. ",
+  		"langSkills":["C++"],
+  		"technoSkills":["Git"],
+  		"methodSkills":[],
+  		"lien":"https://github.com/LeonardA-L/HP-Grammaire"
+  		},
+  		{
+  			"title":"Programmation de la partie mémoire d'un mini-OS Raspberry",
+  			"date":"2014",
+  			"participants":"6",
+  			"description":"L'équipe était chargée de programmer plusieurs parties d'un mini-OS (mémoire, ordonnanceur, appels systèmes).",
+  			"langSkills":["C"],
+  			"technoSkills":["Git"],
+  			"methodSkills":[],
+  			"lien":"https://github.com/Salma-El-Alaoui/OS_Raspi"
+  			},
+  			{
+  				"title":"Jeu de Kalah avec intelligence artificielle",
+  				"date":"2014",
+  				"participants":"6",
+  				"description":"Programmation en Prolog d'un jeu de Kalah (aussi appelé Awalé) doté d'une intelligence artificielle basée sur plusieurs heuristiques (choix de celle utilisée par le joueur). L'interface utilisateur est en Java",
+  				"langSkills":["Prolog"],
+  				"technoSkills":["Git"],
+  				"methodSkills":["algorithmie"],
+  				"lien":"https://github.com/ziedt/Kalah"
+  				}]
+}

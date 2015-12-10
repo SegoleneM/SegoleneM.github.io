@@ -1,0 +1,9 @@
+<div ng-controller="SkillsController as skills">
+  <div ng-controller="ProjectListController as projectList">
+    <skill></skill>
+    <div ng-repeat="project in projectList.projects | filter:skills.filterProExp" >
+      <project></project>
+    </div>
+  </div>
+</div>
+

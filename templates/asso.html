@@ -1,0 +1,6 @@
+<div class="well well-small">
+	<h4>{{asso.startDate | date : 'MM/yyyy'}} - {{asso.endDate | date : 'MM/yyyy'}} </h4>
+	<h3>{{asso.title}} chez {{asso.organization}}</h3>
+	<p>{{asso.description}}</p>
+	<p ng-show="asso.site!=''"><a href="{{asso.site}}">Site de {{asso.organization}} </a></p>
+</div>

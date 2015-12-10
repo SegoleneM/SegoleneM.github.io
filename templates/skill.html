@@ -1,0 +1,48 @@
+ <div class="container">
+  <div class="filterdesc">Sélectionnez toutes les compétences qui vous intéressent</div>
+    <div class="row">    
+      <div class="col-md-6 ">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Langages de programmation</div>
+          <div class="panel-body">
+            <span ng-repeat="langSkill in skills.languageSkills" ng-click="skills.filters.toggleLangSkills(langSkill)" class="btn btn-default" ng-class="{active:skills.langSkillSelected(langSkill)}" style="margin-left:5px; margin-bottom:5px">
+              {{langSkill}}
+            </span>
+          </div> 
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Méthodes</div>
+          <div class="panel-body">
+            <span ng-repeat="methodSkill in skills.methodSkills" ng-click="skills.filters.toggleMethodSkills(methodSkill)" ng-class="{active:skills.methodSkillSelected(methodSkill)}" class=" btn btn-default " style="margin-left:5px; margin-bottom:5px">
+              {{methodSkill}}
+            </span>
+          </div> 
+        </div>
+      </div>
+     
+    </div>
+    <div class="row">
+       <div class="col-md-6 ">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Technologies</div>
+          <div class="panel-body">
+            <span ng-repeat="technoSkill in skills.technoSkills" ng-click="skills.filters.toggleTechnoSkills(technoSkill)" class="btn btn-default" ng-class="{active:skills.technoSkillSelected(technoSkill)}" style="margin-left:5px; margin-bottom:5px">
+              {{technoSkill}}
+            </span>
+          </div> 
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Langues</div>
+          <div class="panel-body">
+           <span ng-repeat="lang in skills.languagesSpoken" ng-click="skills.filters.toggleSpokenLang(lang)" class="btn btn-default" ng-class="{active:skills.langSpokenSelected(lang.id)}" style="margin-left:5px; margin-bottom:5px">
+            {{lang.title}}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

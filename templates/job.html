@@ -1,0 +1,8 @@
+<div class="well well-small">
+	<h4>{{job.startDate | date : 'MM/yyyy'}} - {{job.endDate | date : 'MM/yyyy'}} </h4>
+	<h3>{{job.title}}</h3>
+	<h4>{{job.organization}} - {{job.city}}</h4>
+	<ul ng-repeat="desc in job.description">
+		<li>{{desc}}</li>
+	</ul>
+</div>

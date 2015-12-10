@@ -1,0 +1,26 @@
+{
+	"assoList":[{
+		"title": "Engagement dans une association de sensibilisation au handicap",
+		"organization": "Handizgoud",
+		"startDate": "09/2012",
+		"endDate": "04/2015",
+		"description": "Organisation d'activités de sensibilisation au handicap au travail et dans la vie quotidienne, gestion d'une équipe et suivi de projet, formation",
+		"site":"http://www.handizgoud.com/"
+		},
+		{
+			"title":"Organisation de la Quinzaine HandiCap'INSA 2014",
+			"organization":"Handizgoud",
+			"startDate":"09/2013",
+			"endDate":"03/2014",
+			"description":"Gestion d’une équipe de 20 étudiants pour organiser 14 évènements en 9 jours de nature diverse et avec la coopération avec les intervenants extérieurs",
+			"site":"http://www.handizgoud.com/#!quinzaine-handicapinsa/c1imb"
+			},
+			{
+				"title": "Participation à l'intégration des étudiants dans la filière ASINSA",
+				"organization":"ADT",
+				"startDate":"09/2012",
+				"endDate":"06/2013",
+				"description":"Organisation d'un week end pour la filière ASINSA de l'INSA de Lyon, composée à moitié d'étudiants asiatiques",
+				"site":""
+				}]
+	}

@@ -1,0 +1,10 @@
+<div  ng-controller="SkillsController as skills">
+  <div ng-controller="JobListController as jobList">
+   <skill></skill>
+   <div class="container">
+    <div ng-repeat="job in jobList.jobs | filter:skills.filterProExp" >
+      <job></job>
+    </div>
+  </div>
+</div>
+</div>
